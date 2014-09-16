@@ -1,7 +1,7 @@
 s0-Sensor including SmartHome.py plug-in
 ----------------------------------------
 
-Small project to read s0 impulses of power meters and make them them available to SmartHome.py 
+Small project to read s0 impulses of power meters and make them available in SmartHome.py. 
 
 ###Description
 
