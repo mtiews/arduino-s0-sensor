@@ -3,7 +3,7 @@ s0-Sensor including SmartHome.py plug-in
 
 Small project to read s0 impulses of power meters and make them available in SmartHome.py. 
 
-###Description
+### Description
 
 * (Arduino-compatible) Nano V3.0 based circuit
 * 4 s0 interfaces supported
@@ -11,7 +11,7 @@ Small project to read s0 impulses of power meters and make them available in Sma
 * USB connection to host (currently Raspberry Pi running SmartHome.pi)
 * SmartHome.py plug-in to receive values submitted by this sensor
 
-###Smarthome.py plug-in
+### Smarthome.py plug-in
 
 Item configuration for sensor:
 ```
@@ -56,6 +56,8 @@ Item configuration for sensor:
             sensors_var=8eff16c9-b53b-4d08-8051-ee3737fd0332/HUM
             visu_acl=rw
 ```
+
+For other use cases (e.g. only count the impulses) you can use (for all 4 S0 inputs) the `sensor_var` named `<id>/Impulses`.
 
 Sensor plug-in configuration in plugin.conf:
 
